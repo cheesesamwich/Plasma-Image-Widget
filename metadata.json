@@ -1,0 +1,22 @@
+{
+    "KPackageStructure": "Plasma/Applet",
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "cheesesamwich@proton.me",
+                "Name": "Samwich"
+            }
+        ],
+        "Category": "System Information",
+        "Description": "A simple widget to display an image (either from a file path or a url)",
+        "Icon": "globe.svg",
+        "Id": "com.samwich.image",
+        "License": "GPL-2.0+",
+        "Name": "Image",
+        "ServiceTypes": [
+            "Plasma/Applet"
+        ],
+        "Version": "1.2.8"
+    },
+    "X-Plasma-API-Minimum-Version": "6.0"
+}
