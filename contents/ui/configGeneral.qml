@@ -6,10 +6,15 @@ Kirigami.FormLayout {
     id: page
 
     property alias cfg_imagePath: imagePath.text
+    property alias cfg_stretchImage: stretchImage.checked
 
     QQC2.TextField {
         id: imagePath
         Kirigami.FormData.label: i18n("Image Path: ")
-        placeholderText: i18n("Placeholder")
+        placeholderText: i18n("URL or File Path here")
+    }
+    QQC2.CheckBox {
+        id: stretchImage
+        text: i18n("Stretch image")
     }
 }

@@ -15,6 +15,6 @@ PlasmoidItem {
         source: imagePath
         anchors.fill: parent
         visible: imageVisible
-        fillMode: Image.PreserveAspectFit
+        fillMode: plasmoid.configuration.stretchImage ? Image.Stretch : Image.PreserveAspectCrop
     }
 }
