@@ -1,4 +1,6 @@
 # Plasma Image Widget
 ## A simple plasma widget that displays an image
 
-:warning: **WARNING:** This project is currently broken, the repo is public at this point in time so I can get support with the issues. 
+### Preview
+
+![image](https://github.com/cheesesamwich/Plasma-Image-Widget/assets/149597648/72631603-e2d1-4a07-a691-e8167b92f51f)
